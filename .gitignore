@@ -1,0 +1,23 @@
+# Environment variables
+.env
+
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Learning playground
+playground/
+
+# Generated files
+chat_history.json
+conversation_*.txt
+
+# IDE files
+.vscode/
+.idea/
+
+#notes
+notes/
