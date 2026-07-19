@@ -14,13 +14,15 @@ playground/
 # Generated files
 chat_history.json
 conversation_*.txt
+news_summary.json
 
 # IDE files
 .vscode/
 .idea/
 
 #notes
-notes/.env
+notes/
+.env
 venv/
 __pycache__/
 *.pyc
