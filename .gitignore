@@ -1,28 +1,104 @@
-# Environment variables
+# ==========================================
+# Environment Variables
+# ==========================================
+
 .env
 
-# Virtual environment
+# ==========================================
+# Virtual Environment
+# ==========================================
+
 venv/
 
-# Python cache
+# ==========================================
+# Python Cache
+# ==========================================
+
 __pycache__/
 *.pyc
 
-# Learning playground
+# ==========================================
+# Learning Playground
+# ==========================================
+
 playground/
 
-# Generated files
+# ==========================================
+# Notes
+# ==========================================
+
+notes/
+
+# ==========================================
+# Generated Files
+# ==========================================
+
 chat_history.json
 conversation_*.txt
 news_summary.json
 
-# IDE files
+# ==========================================
+# IDE Files
+# ==========================================
+
 .vscode/
 .idea/
 
-#notes
-notes/
-.env
-venv/
-__pycache__/
-*.pyc
+# ==========================================
+# Operating System Files
+# ==========================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# Python Build Files
+# ==========================================
+
+build/
+dist/
+*.egg-info/
+
+# ==========================================
+# Testing
+# ==========================================
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==========================================
+# Jupyter Notebook
+# ==========================================
+
+.ipynb_checkpoints/
+
+# ==========================================
+# Log Files
+# ==========================================
+
+*.log
+
+# ==========================================
+# Temporary Files
+# ==========================================
+
+*.tmp
+*.temp
+
+# ==========================================
+# Environment Configuration
+# ==========================================
+
+.python-version
+
+# ==========================================
+# Project Data
+# ==========================================
+
+projects/persistent_chatbot/conversations.json
+projects/multi_file_chatbot/data/
+
+# Keep empty data folder in Git
+!projects/multi_file_chatbot/data/.gitkeep
